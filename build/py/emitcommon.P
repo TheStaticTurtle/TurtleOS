@@ -1,0 +1,56 @@
+build/py/emitcommon.o: micropython/py/emitcommon.c \
+ /home/samuel/Ndless/ndless-sdk/toolchain/install/arm-none-eabi/sys-include/assert.h \
+ /home/samuel/Ndless/ndless-sdk/toolchain/install/arm-none-eabi/sys-include/_ansi.h \
+ /home/samuel/Ndless/ndless-sdk/toolchain/install/arm-none-eabi/include/newlib.h \
+ /home/samuel/Ndless/ndless-sdk/toolchain/install/arm-none-eabi/sys-include/_newlib_version.h \
+ /home/samuel/Ndless/ndless-sdk/toolchain/install/arm-none-eabi/sys-include/sys/config.h \
+ /home/samuel/Ndless/ndless-sdk/toolchain/install/arm-none-eabi/sys-include/machine/ieeefp.h \
+ /home/samuel/Ndless/ndless-sdk/toolchain/install/arm-none-eabi/sys-include/sys/features.h \
+ micropython/py/emit.h micropython/py/lexer.h \
+ /home/samuel/Ndless/ndless-sdk/toolchain/install/lib/gcc/arm-none-eabi/9.2.0/include/stdint.h \
+ /home/samuel/Ndless/ndless-sdk/toolchain/install/arm-none-eabi/sys-include/stdint.h \
+ /home/samuel/Ndless/ndless-sdk/toolchain/install/arm-none-eabi/sys-include/machine/_default_types.h \
+ /home/samuel/Ndless/ndless-sdk/toolchain/install/arm-none-eabi/sys-include/sys/_intsup.h \
+ /home/samuel/Ndless/ndless-sdk/toolchain/install/arm-none-eabi/sys-include/sys/_stdint.h \
+ micropython/py/mpconfig.h mpconfigport.h \
+ /home/samuel/Ndless/ndless-sdk/toolchain/install/arm-none-eabi/sys-include/alloca.h \
+ /home/samuel/Ndless/ndless-sdk/toolchain/install/arm-none-eabi/sys-include/sys/reent.h \
+ /home/samuel/Ndless/ndless-sdk/toolchain/install/arm-none-eabi/sys-include/_ansi.h \
+ /home/samuel/Ndless/ndless-sdk/toolchain/install/lib/gcc/arm-none-eabi/9.2.0/include/stddef.h \
+ /home/samuel/Ndless/ndless-sdk/toolchain/install/arm-none-eabi/sys-include/sys/_types.h \
+ /home/samuel/Ndless/ndless-sdk/toolchain/install/arm-none-eabi/sys-include/machine/_types.h \
+ /home/samuel/Ndless/ndless-sdk/toolchain/install/arm-none-eabi/sys-include/sys/lock.h \
+ micropython/py/qstr.h micropython/py/misc.h \
+ /home/samuel/Ndless/ndless-sdk/toolchain/install/lib/gcc/arm-none-eabi/9.2.0/include/stdbool.h \
+ build/genhdr/qstrdefs.generated.h micropython/py/reader.h \
+ micropython/py/obj.h micropython/py/mpprint.h micropython/py/scope.h \
+ micropython/py/parse.h micropython/py/emitglue.h \
+ micropython/py/runtime0.h
+micropython/py/emitcommon.c :
+ /home/samuel/Ndless/ndless-sdk/toolchain/install/arm-none-eabi/sys-include/assert.h :
+ /home/samuel/Ndless/ndless-sdk/toolchain/install/arm-none-eabi/sys-include/_ansi.h :
+ /home/samuel/Ndless/ndless-sdk/toolchain/install/arm-none-eabi/include/newlib.h :
+ /home/samuel/Ndless/ndless-sdk/toolchain/install/arm-none-eabi/sys-include/_newlib_version.h :
+ /home/samuel/Ndless/ndless-sdk/toolchain/install/arm-none-eabi/sys-include/sys/config.h :
+ /home/samuel/Ndless/ndless-sdk/toolchain/install/arm-none-eabi/sys-include/machine/ieeefp.h :
+ /home/samuel/Ndless/ndless-sdk/toolchain/install/arm-none-eabi/sys-include/sys/features.h :
+ micropython/py/emit.h micropython/py/lexer.h :
+ /home/samuel/Ndless/ndless-sdk/toolchain/install/lib/gcc/arm-none-eabi/9.2.0/include/stdint.h :
+ /home/samuel/Ndless/ndless-sdk/toolchain/install/arm-none-eabi/sys-include/stdint.h :
+ /home/samuel/Ndless/ndless-sdk/toolchain/install/arm-none-eabi/sys-include/machine/_default_types.h :
+ /home/samuel/Ndless/ndless-sdk/toolchain/install/arm-none-eabi/sys-include/sys/_intsup.h :
+ /home/samuel/Ndless/ndless-sdk/toolchain/install/arm-none-eabi/sys-include/sys/_stdint.h :
+ micropython/py/mpconfig.h mpconfigport.h :
+ /home/samuel/Ndless/ndless-sdk/toolchain/install/arm-none-eabi/sys-include/alloca.h :
+ /home/samuel/Ndless/ndless-sdk/toolchain/install/arm-none-eabi/sys-include/sys/reent.h :
+ /home/samuel/Ndless/ndless-sdk/toolchain/install/arm-none-eabi/sys-include/_ansi.h :
+ /home/samuel/Ndless/ndless-sdk/toolchain/install/lib/gcc/arm-none-eabi/9.2.0/include/stddef.h :
+ /home/samuel/Ndless/ndless-sdk/toolchain/install/arm-none-eabi/sys-include/sys/_types.h :
+ /home/samuel/Ndless/ndless-sdk/toolchain/install/arm-none-eabi/sys-include/machine/_types.h :
+ /home/samuel/Ndless/ndless-sdk/toolchain/install/arm-none-eabi/sys-include/sys/lock.h :
+ micropython/py/qstr.h micropython/py/misc.h :
+ /home/samuel/Ndless/ndless-sdk/toolchain/install/lib/gcc/arm-none-eabi/9.2.0/include/stdbool.h :
+ build/genhdr/qstrdefs.generated.h micropython/py/reader.h :
+ micropython/py/obj.h micropython/py/mpprint.h micropython/py/scope.h :
+ micropython/py/parse.h micropython/py/emitglue.h :
+ micropython/py/runtime0.h :
